@@ -1,10 +1,10 @@
 Metadata-Version: 1.1
 Name: bitcoin-python3
 Version: 0.3
-Summary: Friendly Bitcoin JSON-RPC API binding for Python
+Summary: Friendly Bitcoin JSON-RPC API binding for Python 3
 Home-page: http://laanwj.github.com/bitcoin-python/doc/
-Author: Wladimir van der Laan
-Author-email: laanwj@gmail.com
+Author: Ashot Seropian
+Author-email: ondaemon@gmail.com
 License: UNKNOWN
 Description: This package allows performing commands such as listing the current balance and sending coins to the Satoshi (original) client from Python 3. The communication with the client happens over JSON-RPC.
 Platform: UNKNOWN
