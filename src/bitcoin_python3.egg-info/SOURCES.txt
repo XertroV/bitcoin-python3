@@ -1,5 +1,4 @@
 setup.py
-src/bitcoin_python3.egg-info/.DS_Store
 src/bitcoin_python3.egg-info/PKG-INFO
 src/bitcoin_python3.egg-info/SOURCES.txt
 src/bitcoin_python3.egg-info/dependency_links.txt
