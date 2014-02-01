@@ -25,8 +25,8 @@ import json
 import decimal
 from collections import defaultdict, deque
 from bitcoinrpc.exceptions import TransportException
-import urllib
-import http
+from urllib.parse import urlparse
+import http.client
 
 USER_AGENT = "AuthServiceProxy/0.1"
 
@@ -42,7 +42,7 @@ class JSONRPCException(Exception):
 class HTTPTransport(object):
     def __init__(self, service_url):
         self.service_url = service_url
-        self.parsed_url = urllib.parse.urlparse(service_url)
+        self.parsed_url = urlparse(service_url)
         if self.parsed_url.port is None:
             port = 80
         else:
