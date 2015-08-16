@@ -59,11 +59,11 @@ class BitcoinConnection(object):
         """
         self.proxy.stop()
 
-    def getblock(self, hash):
+    def getblock(self, hash, verbose=True):
         """
         Returns information about the given block hash.
         """
-        return self.proxy.getblock(hash)
+        return self.proxy.getblock(hash, verbose)
 
     def getblockcount(self):
         """
